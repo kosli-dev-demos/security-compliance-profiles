@@ -3,7 +3,7 @@
   <xccdf:benchmark href="https://atopathways.redhatgov.io/compliance-as-code/scap/ssg-rhel8-ds.xml"/>
   <xccdf:version time="2021-09-01T17:00:00">2</xccdf:version>
 
-  <xccdf:Profile id="xccdf_com.tailoring-profile" extends="xccdf_org.ssgproject.content_profile_standard">
+  <xccdf:Profile id="xccdf_com.tailoring_profile" extends="xccdf_org.ssgproject.content_profile_standard">
     <xccdf:title xml:lang="en-US" override="true">Cutomized Standard Compliance Profile for the reference-quarkus-mvn project</xccdf:title>
     <xccdf:description xml:lang="en-US">Profile used with https://github.com/ploigos-reference-apps to work around Compliance issues that can't be remediated.</xccdf:description>
 <!--     <xccdf:select idref="xccdf_org.ssgproject.content_rule_dir_perms_world_writable_sticky_bits" selected="false"/> -->
